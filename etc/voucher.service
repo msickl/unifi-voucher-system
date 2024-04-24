@@ -1,0 +1,13 @@
+[Unit]
+Description=Voucher Service
+After=network.target
+
+[Service]
+User=root
+Group=root
+WorkingDirectroy=/opt/voucher/
+ExecStart=/usr/bin/python3 /opt/voucher/run.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

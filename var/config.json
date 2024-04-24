@@ -1,0 +1,64 @@
+{
+    "timer": {
+        "hour": "00",
+        "minute": "00",
+        "second": "00"
+    },
+    "unifi": {
+        "server": "***********",
+        "username": "***********",
+        "password": "***********",
+        "siteid": "***********",
+        "ssid": "***********"
+    },
+    "smtp": {
+        "server": "***********",
+        "sender": "***********",
+        "port": 25,
+        "username": null,
+        "password": null
+    },
+    "domains": [
+        {
+            "id": 0,
+            "name": "***********",
+            "clients": []
+        },
+        {
+            "id": 1,
+            "name": "***********",
+            "clients": []
+        },
+        {
+            "id": 2,
+            "name": "***********",
+            "clients": [
+                {
+                    "firstname": "Max",
+                    "lastname": "Mustermann",
+                    "mail": "max@mustermann.de",
+                    "lang": "de-de",
+                    "quota": 2,
+                    "expire": 30,
+                    "expire_unit": "days",
+                    "datalimit_mb": -1,
+                    "download_limit_mbit": -1,
+                    "upload_limit_mbit": -1,
+                    "expiredate": "***********",
+                    "admin": true,
+                    "lastcreationdate": "***********"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "***********",
+            "clients": []
+        },
+        {
+            "id": 4,
+            "name": "***********",
+            "clients": []
+        }
+    ]
+}

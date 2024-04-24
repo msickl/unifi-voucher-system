@@ -1,0 +1,112 @@
+{
+    "en-en": {
+        "voucher": {
+            "subject": "New Voucher for ***********",
+            "note": "Below are the details of your new Wi-Fi voucher.",
+            "greet": "Dear Brother {{ client.lastname }} {{ client.firstname }},",
+            "quota.limited": "This voucher is valid for use on only one device.",
+            "quota.unlimited": "You can use this voucher on up to {{ client.quota }} devices.",
+            "table.voucher.title": "Voucher",
+            "table.expire.title": "Expiration",
+            "table.expiredate.title": "Expiration Date",
+            "table.quota.title": "Quota",
+            "table.datalimit.title": "Data Limit",
+            "table.downloadlimit.title": "Download Limit",
+            "table.uploadlimit.title": "Upload Limit",
+            "table.unlimited.title": "Unlimited"
+        },
+        "list": {
+            "subject": "New User List for ***********",
+            "greet": "Hello {{ client.lastname }} {{ client.firstname }},",
+            "note": "Attached is the list of Wi-Fi users"
+        }
+    },
+    "de-de": {
+        "voucher": {
+            "subject": "Neuer Gutschein für ***********",
+            "note": "Hier sind die Details zu deinem neuen WLAN-Gutschein.",
+            "greet": "Hallo {{ client.lastname }} {{ client.firstname }},",
+            "quota.limited": "Dieser Gutschein ist nur für die Nutzung auf einem Gerät gültig.",
+            "quota.unlimited": "Du kannst diesen Gutschein auf bis zu {{ client.quota }} Geräten verwenden.",
+            "table.voucher.title": "Gutschein",
+            "table.expire.title": "Ablauf",
+            "table.expiredate.title": "Ablaufdatum",
+            "table.quota.title": "Kontingent",
+            "table.datalimit.title": "Datenlimit",
+            "table.downloadlimit.title": "Download-Limit",
+            "table.uploadlimit.title": "Upload-Limit",
+            "table.unlimited.title": "Unbegrenzt"
+        },
+        "list": {
+            "subject": "Neue Benutzerliste für die ***********",
+            "greet": "Hallo {{ client.lastname }} {{ client.firstname }},",
+            "note": "Anbei die Liste der WLAN-Benutzer"
+        }
+    },
+    "ru-ru": {
+        "voucher": {
+            "subject": "Новый ваучер для ***********",
+            "note": "Ниже представлены данные о твоём новом ваучере для доступа к Wi-Fi.",
+            "greet": "Дорогой брат {{ client.lastname }} {{ client.firstname }},",
+            "quota.limited": "Этот ваучер действителен только для использования на одном устройстве.",
+            "quota.unlimited": "Ты можешь использовать этот ваучер на до {{ client.quota }} устройств.",
+            "table.voucher.title": "Ваучер",
+            "table.expire.title": "Срок действия",
+            "table.expiredate.title": "Дата истечения срока",
+            "table.quota.title": "Квота",
+            "table.datalimit.title": "Лимит данных",
+            "table.downloadlimit.title": "Лимит загрузки",
+            "table.uploadlimit.title": "Лимит выгрузки",
+            "table.unlimited.title": "Неограниченный"
+        },
+        "list": {
+            "subject": "Новый список пользователей для ***********",
+            "greet": "Здравствуйте {{ client.lastname }} {{ client.firstname }},",
+            "note": "Прилагается список пользователей Wi-Fi"
+        }
+    },
+    "uk-ua": {
+        "voucher": {
+            "subject": "Новий купон для ***********",
+            "note": "Нижче подані деталі вашого нового ваучера для Wi-Fi.",
+            "greet": "Любий Брате {{ client.lastname }} {{ client.firstname }},",
+            "quota.limited": "Цей купон дійсний лише для використання на одному пристрої.",
+            "quota.unlimited": "Ви можете використовувати цей купон на до {{ client.quota }} пристроях.",
+            "table.voucher.title": "Купон",
+            "table.expire.title": "Термін дії",
+            "table.expiredate.title": "Дата закінчення терміну",
+            "table.quota.title": "Квота",
+            "table.datalimit.title": "Ліміт даних",
+            "table.downloadlimit.title": "Ліміт завантаження",
+            "table.uploadlimit.title": "Ліміт вивантаження",
+            "table.unlimited.title": "Необмежено"
+        },
+        "list": {
+            "subject": "Новий список користувачів для ***********",
+            "greet": "Привіт {{ client.lastname }} {{ client.firstname }},",
+            "note": "Додається список користувачів Wi-Fi"
+        }
+    },
+    "fa-ir": {
+        "voucher": {
+            "subject": "کوپن جدید برای ***********",
+            "note": "در زیر جزئیات کوپن وای-فای جدید شما آمده است.",
+            "greet": "برادر عزیز {{ client.lastname }} {{ client.firstname }},",
+            "quota.limited": "این کوپن فقط برای استفاده در یک دستگاه معتبر است.",
+            "quota.unlimited": "شما می‌توانید این کوپن را تا {{ client.quota }} دستگاه استفاده کنید.",
+            "table.voucher.title": "کوپن",
+            "table.expire.title": "انقضا",
+            "table.expiredate.title": "تاریخ انقضا",
+            "table.quota.title": "سهمیه",
+            "table.datalimit.title": "محدودیت داده",
+            "table.downloadlimit.title": "محدودیت دانلود",
+            "table.uploadlimit.title": "محدودیت آپلود",
+            "table.unlimited.title": "نامحدود"
+        },
+        "list": {
+            "subject": "فهرست جدید کاربران برای ***********",
+            "greet": "سلام {{ client.lastname }} {{ client.firstname }},",
+            "note": "فهرست کاربران وای‌فای ضمیمه شده است"
+        }
+    }
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ data.title }}</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            color: #333333;
+            background-color: #f6f7f9; /* Light Gray */
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #ffffff; /* White */
+            border: 2px solid #e9ecef; /* Light Gray */
+        }
+        th {
+            background-color: #007bff; /* Blue */
+            color: #ffffff; /* White */
+        }
+        th, td {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+        td {
+            background-color: #ffffff; /* White */
+        }
+        p {
+            margin-bottom: 10px;
+        }
+        .note {
+            background-color: #ffef96; /* Light Yellow */
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <p style="color: #007bff; font-size: 18px;">{{ data.lang['greet'] }}</p>
+    <p>{{ data.lang['note'] }}</p>
+    
+    {% if data.quota == 1 %}
+        <div class="note">
+            <p>{{ data.lang['quota.limited'] }}</p>
+        </div>
+    {% else %}
+        <div class="note">
+            <p>{{ data.lang['quota.unlimited'] }}</p>
+        </div>
+    {% endif %}
+    
+    <table>
+        <tr>
+            <th>{{ data.lang['table.voucher.title'] }}</th>
+            <td><strong>{{ data.voucher }}</strong></td>
+        </tr>
+        <tr>
+            <th>{{ data.lang['table.expire.title'] }}</th>
+            <td>{{ data.expire }} {{ data.expire_unit }}</td>
+        </tr>
+        <tr>
+            <th>{{ data.lang['table.expiredate.title'] }}</th>
+            <td>{{ data.expire_date }}</td>
+        </tr>
+        <tr>
+            <th>{{ data.lang['table.quota.title'] }}</th>
+            <td>{{ data.quota }}</td>
+        </tr>
+        <tr>
+            <th>{{ data.lang['table.datalimit.title'] }}</th>
+            <td>
+                {% if data.datalimit == -1 %}
+                    {{ data.lang['table.unlimited.title'] }}
+                {% else %}
+                    {{ data.datalimit }}
+                {% endif %}
+            </td>
+        </tr>
+        <tr>
+            <th>{{ data.lang['table.downloadlimit.title'] }}</th>
+            <td>
+                {% if data.download_limit == -1 %}
+                    {{ data.lang['table.unlimited.title'] }}
+                {% else %}
+                    {{ data.download_limit }}
+                {% endif %}
+            </td>
+        </tr>
+        <tr>
+            <th>{{ data.lang['table.uploadlimit.title'] }}</th>
+            <td>
+                {% if data.upload_limit == -1 %}
+                    {{ data.lang['table.unlimited.title'] }}
+                {% else %}
+                    {{ data.upload_limit }}
+                {% endif %}
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
