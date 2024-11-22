@@ -48,7 +48,7 @@ class Session:
         obj = response.json()
         create_time = obj['data'][0]['create_time']
 
-        response = requests.get(f"https://ui.sickl.at/api/s/{self.site}/stat/voucher?create_time={create_time}", cookies=self.cookie)
+        response = requests.get(f"https://{self.server}/api/s/{self.site}/stat/voucher?create_time={create_time}", cookies=self.cookie)
         obj = response.json()
 
         return obj['data'][0]['code']
